@@ -10,7 +10,7 @@ export default function Detalles() {
           <p><strong>Saló de Cent</strong> · Ajuntament de Barcelona</p>
           <p>Hora: <strong>13:00</strong></p>
           <p>Dirección: Pl. de Sant Jaume, 1, Ciutat Vella, 08002 Barcelona</p>
-          <a className="link" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Plaza%20de%20Sant%20Jaume%201%20Barcelona">Ver en Google Maps</a>
+          <a className="link" target="_blank" rel="noopener" href="https://maps.app.goo.gl/MUdjkZ6XKtUzWWr6A">Ver en Google Maps</a>
         </div>
         <div className="card">
           <h3 className="card-title">Cóctel & Celebración</h3>
