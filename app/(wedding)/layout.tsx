@@ -19,7 +19,7 @@ function WeddingLayout({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   return (
-  <div className="w-full min-h-screen bg-linear-to-br from-[#f8f8f3] via-[#e6efe2] to-[#f7e6ef] text-zinc-800 font-sans">
+  <div className="w-full min-h-screen bg-linear-to-br from-[#F7F3EE] via-[#F7F3EE] to-[#F7F3EE] text-zinc-800 font-sans">
       {/* Mobile Hamburger */}
       <nav className="w-full py-4 bg-white/80 shadow-sm sticky top-0 z-20 animate-fade-down">
         <div className="flex items-center justify-between md:hidden px-4">
@@ -41,7 +41,7 @@ function WeddingLayout({ children }: { children: React.ReactNode }) {
         <ul className="hidden md:flex gap-6 text-lg font-medium justify-center">
           {menu.map((item) => (
             <li key={item.href}>
-              <Link href={item.href} className={`px-4 py-2 rounded-xl transition-colors duration-200 ${pathname === item.href ? 'bg-[#e6efe2] text-[#b76e79] font-bold shadow' : 'hover:bg-[#f7e6ef] hover:text-[#b76e79]'}`}>{item.name}</Link>
+              <Link href={item.href} className={`px-4 py-2 rounded-xl transition-colors duration-200 ${pathname === item.href ? 'bg-[#F7F3EE] text-[#b76e79] font-bold shadow' : 'hover:bg-[#f7e6ef] hover:text-[#b76e79]'}`}>{item.name}</Link>
             </li>
           ))}
         </ul>
@@ -70,7 +70,7 @@ function WeddingLayout({ children }: { children: React.ReactNode }) {
                   <li key={item.href}>
                     <Link
                       href={item.href}
-                      className={`block px-4 py-2 rounded-xl transition-colors duration-200 ${pathname === item.href ? 'bg-[#e6efe2] text-[#b76e79] font-bold shadow' : 'hover:bg-[#f7e6ef] hover:text-[#b76e79]'}`}
+                      className={`block px-4 py-2 rounded-xl transition-colors duration-200 ${pathname === item.href ? 'bg-[#F7F3EE] text-[#b76e79] font-bold shadow' : 'hover:bg-[#f7e6ef] hover:text-[#b76e79]'}`}
                       onClick={() => setOpen(false)}
                     >
                       {item.name}
