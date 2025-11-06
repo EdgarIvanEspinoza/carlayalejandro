@@ -10,7 +10,7 @@ export default function RSVP() {
   return (
     <WeddingLayout>
       <section className="animate-fade-in">
-        <h2 className="text-3xl md:text-4xl font-greatvibes text-[#b76e79] mb-6 text-center">
+        <h2 className="text-3xl md:text-4xl font-greatvibes text-[#1f2937] mb-6 text-center">
           Confirmación (RSVP)
         </h2>
         <form className="space-y-6">
@@ -50,7 +50,7 @@ export default function RSVP() {
               <input
                 type="checkbox"
                 name="hasGuest"
-                className="accent-[#b76e79] w-4 h-4"
+                className="accent-[#e6efe2] w-4 h-4"
                 checked={hasGuest}
                 onChange={(e) => setHasGuest(e.target.checked)}
               />
@@ -108,13 +108,13 @@ export default function RSVP() {
           </div>
           <div className="mt-4">
             <label className="flex items-center gap-2 text-sm text-zinc-700">
-              <input type="checkbox" name="consent" required className="accent-[#b76e79] w-4 h-4" />
+              <input type="checkbox" name="consent" required className="accent-[#e6efe2] w-4 h-4" />
               Acepto el tratamiento de mis datos personales para la gestión del evento (RGPD).
             </label>
           </div>
           <div className="flex flex-col md:flex-row gap-3 items-center mt-6">
             <button
-              className="inline-block bg-[#b76e79] text-white font-inter font-semibold rounded-full px-6 py-3 border-none cursor-pointer transition-colors duration-200 shadow-md text-base hover:bg-[#d4af37] hover:text-white"
+              className="inline-block bg-[#6b7d57] text-white font-inter font-semibold rounded-full px-6 py-3 border-none cursor-pointer transition-colors duration-200 shadow-md text-base hover:bg-[#d4af37] hover:text-white"
               type="submit"
             >
               Enviar confirmación
