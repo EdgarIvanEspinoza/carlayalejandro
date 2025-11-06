@@ -1,4 +1,5 @@
 import WeddingLayout from './(wedding)/layout';
+import CountDown from './components/CountDown';
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
             Saló de Cent, Barcelona
           </a>
         </p>
+        <CountDown />
         <p className="text-2xl text-center max-w-xl mb-8">
           Nos hace muchísima ilusión compartir con vosotros este día tan especial.
           <br />
