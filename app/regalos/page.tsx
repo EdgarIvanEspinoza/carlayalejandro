@@ -1,6 +1,4 @@
-
-import WeddingLayout from "../(wedding)/layout";
-import Image from "next/image";
+import WeddingLayout from '../(wedding)/layout';
 
 export default function Regalos() {
   return (
@@ -18,7 +16,6 @@ export default function Regalos() {
             <button className="btn btn-ghost" type="button">Copiar Bizum</button>
           </div>
         </div> */}
-  <Image src="/flowers.webp" alt="Flores Regalos" width={128} height={64} className="mt-8 mx-auto" />
       </section>
     </WeddingLayout>
   );

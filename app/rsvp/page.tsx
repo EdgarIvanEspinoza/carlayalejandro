@@ -1,7 +1,6 @@
 'use client';
 
 import WeddingLayout from '../(wedding)/layout';
-import Image from 'next/image';
 import { useState } from 'react';
 
 export default function RSVP() {
@@ -122,13 +121,6 @@ export default function RSVP() {
             <span className="text-sm text-[#b7c9a7]" role="status" aria-live="polite"></span>
           </div>
         </form>
-        <Image
-          src="/flowers.webp"
-          alt="Flores RSVP"
-          width={128}
-          height={64}
-          className="mt-8 mx-auto"
-        />
       </section>
     </WeddingLayout>
   );

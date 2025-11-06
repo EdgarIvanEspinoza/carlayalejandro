@@ -1,5 +1,4 @@
 import WeddingLayout from './(wedding)/layout';
-import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -27,7 +26,7 @@ export default function Home() {
         </p>
         <div className="flex flex-col md:flex-row gap-4 mt-6">
           <a
-            href="/rsvp"
+            href="#rsvp"
             className="inline-block bg-[#6b7d57] text-white font-inter font-semibold rounded-full px-6 py-3 border-none cursor-pointer transition-colors duration-200 shadow-md text-base hover:bg-[#d4af37] hover:text-white"
           >
             Confirmar asistencia
@@ -41,21 +40,17 @@ export default function Home() {
         </div>
         <iframe
           width="540"
-          height="670"
+          height="770"
           src="https://a7402fe3.sibforms.com/serve/MUIFAMv4JAdunPcLpCIL4-seT6FlO26y0DWKWbS3Pd_vtt7j7Azde5QZwFHU_4HPSYtpGjOJuGcwJVeLzkcGBaWa1bCUC2sLfx2hv-GoisoozlU7iYrFj5Ku6_3UNt8ZVg2CUUkvDamDP7AxYDz0sUF6vQ_bX4a3nf3hpiCdBJk9G4WqjU7vIdauQ9MR0-6ptu0EZNgaRWhgvQLf2g=="
-          frameBorder="0"
-          scrolling="auto"
           allowFullScreen
-          style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', maxWidth: '100%' }}
+          style={{
+            display: 'block',
+            marginLeft: 'auto',
+            marginRight: 'auto',
+            maxWidth: '100%',
+          }}
         ></iframe>
       </section>
-      <Image
-        src="/flowers.webp"
-        alt="Flores Fotos"
-        width={128}
-        height={64}
-        className="mt-8 mx-auto"
-      />
     </WeddingLayout>
   );
 }
