@@ -5,12 +5,13 @@ export default function Home() {
   return (
     <WeddingLayout>
       <section className="flex flex-col items-center justify-center py-16 animate-fade-in relative z-10">
-        <h1 className="text-center text-4xl md:text-6xl font-greatvibes text-[#1f2937] mb-4 tracking-wide font-normal">
+        <h1 className="text-center text-5xl md:text-7xl font-greatvibes text-[#1f2937] mb-4 tracking-wide font-normal">
           Carla & Alejandro
         </h1>
         <p className="text-xl mb-4 text-center">
           13 de diciembre de 2025 <br />
           12:30hs Ajuntament de Barcelona
+          <br />
           <br />
           <a
             href="https://maps.app.goo.gl/MUdjkZ6XKtUzWWr6A"
@@ -18,11 +19,12 @@ export default function Home() {
             rel="noopener"
             className="underline hover:text-[##d4af37]"
           >
-            Saló de Cent, Barcelona
+            Saló de Cent
           </a>
         </p>
         <CountDown />
-        <p className="text-2xl text-center max-w-xl mb-8">
+        <br />
+        <p className="text-1xl text-center max-w-xl mb-8">
           Nos hace muchísima ilusión compartir con vosotros este día tan especial.
           <br />
           Gracias por acompañarnos en el inicio de esta nueva etapa juntos.

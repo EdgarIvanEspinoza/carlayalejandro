@@ -146,9 +146,9 @@ function WeddingLayout({ children }: { children: React.ReactNode }) {
         />
         <p className="font-greatvibes text-3xl text-[#1f2937] mb-2">Carla & Alejandro</p>
         <p className="text-base mb-2">
-          Un día, una historia, un amor eterno. Gracias por ser parte de nuestro sueño.
+          Gracias por ser parte de nuestro sueño.
         </p>
-        <p className="text-base">
+        <p className="text-xs">
           © 2025 Carla & Alejandro · Todos los derechos reservados ·{' '}
           <Link href="/rsvp" className="underline">
             Política de privacidad (RGPD)
