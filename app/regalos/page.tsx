@@ -4,7 +4,7 @@ export default function Regalos() {
   return (
     <WeddingLayout>
       <section className="animate-fade-in">
-        <h2 className="section-title">Regalos</h2>
+        <h2 className="text-3xl md:text-4xl font-greatvibes text-[#1f2937] mb-6 text-center">Regalos</h2>
         {/* <p>Vuestra presencia es el mejor regalo. Si aun así queréis tener un detalle, podéis usar este IBAN o Bizum.</p>
         <div className="gift-box">
           <div>

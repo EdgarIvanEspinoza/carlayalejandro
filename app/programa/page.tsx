@@ -4,7 +4,7 @@ export default function Programa() {
   return (
     <WeddingLayout>
       <section className="animate-fade-in">
-        <h2 className="section-title">Programa</h2>
+        <h2 className="text-3xl md:text-4xl font-greatvibes text-[#1f2937] mb-6 text-center">Programa</h2>
         <ul className="timeline list-disc pl-6">
           <li><span className="font-semibold">12:30</span> Llegada de invitados</li>
           <li><span className="font-semibold">13:00</span> Ceremonia civil en Saló de Cent</li>

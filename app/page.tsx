@@ -8,8 +8,9 @@ export default function Home() {
         <h1 className="text-center text-4xl md:text-6xl font-greatvibes text-[#1f2937] mb-4 tracking-wide font-normal">
           Carla & Alejandro
         </h1>
-        <p className="text-xl mb-4">
-          13 de diciembre de 2025
+        <p className="text-xl mb-4 text-center">
+          13 de diciembre de 2025 <br />
+          12:30hs Ajuntament de Barcelona
           <br />
           <a
             href="https://maps.app.goo.gl/MUdjkZ6XKtUzWWr6A"
