@@ -19,12 +19,6 @@ export default function Detalles() {
                   />
                 </h2>
               </div>
-          {/* Aquí insertas el clima */}
-          <Clima />
-         <br />
-          <p className="text-xs text-[#6b7280] mt-2">
-            Fuente: Open-Meteo · Actualiza automáticamente según tu ubicación si das permiso.
-          </p>
         <div className="bg-[#e6efe2] rounded-xl p-6 shadow-sm mb-6">
           <h3 className="text-xl font-semibold mb-2 text-[#1f2937]">Ceremonia</h3>
           <p>
@@ -56,6 +50,8 @@ export default function Detalles() {
           <p>Marina Vela, Pg. de Joan de Borbó, 103, Ciutat Vella, 08039 Barcelona</p>
           <a className="inline-block bg-[#6b7d57] text-white font-inter font-semibold rounded-full px-6 py-3 border-none cursor-pointer transition-colors duration-200 shadow-md text-base hover:bg-[#d4af37] hover:text-white mt-4" target="_blank" rel="noopener" href="https://maps.app.goo.gl/X2GGEVsiiSMC5KCz7">Ver en Google Maps</a>
         </div>
+   {/* Aquí insertas el clima */}
+          <Clima />
       </section>
     </WeddingLayout>
   );

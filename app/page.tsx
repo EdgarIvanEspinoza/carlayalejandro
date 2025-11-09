@@ -17,7 +17,7 @@ export default function Home() {
           />
         </h1>
         <h2 className="text-center text-5xl md:text-7xl font-greatvibes text-[#1f2937] mb-4 tracking-wide font-normal">
-          Carla & Alejandro
+          Carla y Alejandro
         </h2>
         <p className="text-xl mb-4 text-center">
           13 de diciembre de 2025 <br />

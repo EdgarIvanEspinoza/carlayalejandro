@@ -66,9 +66,10 @@ export default function Regalos() {
             />
           </h2>
         </div>
-
-        <p className="text-lg text-center max-w-2xl mx-auto">
-          Vuestra presencia es el mejor regalo. Si aun así queréis tener un detalle,
+        <p className="text-2xl md:text-1xl text-center max-w-5xl mx-auto">
+          Vuestra presencia es el mejor regalo.</p> 
+          <p className="text-lg text-center max-w-1xl mx-auto">
+            Si aun así queréis tener un detalle,
           <br></br>podéis usar este IBAN o Bizum. 
         </p>
 
