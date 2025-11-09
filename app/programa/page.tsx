@@ -24,7 +24,7 @@ export default function Programa() {
           <li><span className="font-semibold">13:45 - 14:30</span> Desplazamiento hacia Camping Mar</li>
           <li><span className="font-semibold">14:30 - 15:00</span> Cóctel de bienvenida</li>
           <li><span className="font-semibold">15:00 - 17:30</span> Comida y brindis</li>
-          <li><span className="font-semibold">17:30 - 21:00</span> Musica y barra libre</li>          
+          <li><span className="font-semibold">17:30 - 21:00</span> Música y barra libre</li>          
           <li><span className="font-semibold">TBD</span> Post-Party</li>
         </ul>
         <div className="mt-12 flex justify-center">
