@@ -10,7 +10,7 @@ const menu = [
   { name: 'Inicio', href: '/' },
   { name: 'Detalles', href: '/detalles' },
   { name: 'Programa', href: '/programa' },
-  { name: 'Dress Code', href: '/dresscode' },
+  { name: 'Vestimenta', href: '/dresscode' },
   { name: 'Regalos', href: '/regalos' },
   // { name: "RSVP", href: "/rsvp" },
   // { name: "Fotos", href: "/fotos" },
@@ -24,7 +24,7 @@ function WeddingLayout({ children }: { children: React.ReactNode }) {
       {/* Mobile Hamburger */}
       <nav className="w-full py-4 bg-white/80 shadow-sm sticky top-0 z-20 animate-fade-down">
         <div className="flex items-center justify-between md:hidden px-4">
-          <span className="font-greatvibes text-2xl text-[#1f2937]">C & A</span>
+          <span className="font-greatvibes text-4xl text-[#1f2937]">C y A</span>
           <button
             aria-label="Abrir menú"
             className="p-2 rounded-lg border border-[#e6efe2] bg-white shadow"
@@ -136,7 +136,7 @@ function WeddingLayout({ children }: { children: React.ReactNode }) {
           {children}
         </motion.main>
       </AnimatePresence>
-      <footer className="py-8 px-4 text-center text-zinc-500 animate-fade-up">
+      <footer className="py-1 px-4 text-center text-zinc-500 animate-fade-up">
         <Image
           src="/olivos.webp"
           alt="Flores Fotos"
@@ -144,17 +144,18 @@ function WeddingLayout({ children }: { children: React.ReactNode }) {
           height={64}
           className="mt-8 mx-auto"
         />
-        <p className="font-greatvibes text-3xl text-[#1f2937] mb-2">Carla & Alejandro</p>
+        <p className="font-greatvibes text-3xl text-[#1f2937] mb-2">Carla y Alejandro</p>
         <p className="text-base mb-2">
-          Un día, una historia, un amor eterno. Gracias por ser parte de nuestro sueño.
+          Gracias por ser parte de nuestra celebración.
         </p>
-        <p className="text-base">
+        <p className="text-xs">
           © 2025 Carla & Alejandro · Todos los derechos reservados ·{' '}
           <Link href="/rsvp" className="underline">
             Política de privacidad (RGPD)
           </Link>
         </p>
       </footer>
+      <br></br>
     </div>
   );
 }

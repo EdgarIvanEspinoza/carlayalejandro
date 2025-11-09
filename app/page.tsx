@@ -1,33 +1,46 @@
 import WeddingLayout from './(wedding)/layout';
 import CountDown from './components/CountDown';
+import Image from 'next/image';
 
 export default function Home() {
   return (
     <WeddingLayout>
-      <section className="flex flex-col items-center justify-center py-16 animate-fade-in relative z-10">
-        <h1 className="text-center text-4xl md:text-6xl font-greatvibes text-[#1f2937] mb-4 tracking-wide font-normal">
-          Carla & Alejandro
+      <section className="flex flex-col items-center justify-center py-1 animate-fade-in relative z-10">
+        <h1 className="text-center mb-8">
+          <Image
+            src="/olivos 2 top sin fondo.png"
+            alt="Olivos decorativos"
+            width={268}
+            height={100}
+            className="mx-auto"
+            priority
+          />
         </h1>
+        <h2 className="text-center text-5xl md:text-7xl font-greatvibes text-[#1f2937] mb-4 tracking-wide font-normal">
+          Carla y Alejandro
+        </h2>
         <p className="text-xl mb-4 text-center">
           13 de diciembre de 2025 <br />
           12:30hs Ajuntament de Barcelona
           <br />
+          <br />
           <a
-            href="https://maps.app.goo.gl/MUdjkZ6XKtUzWWr6A"
+            href="https://maps.app.goo.gl/EFTAQweu9iTx2j977"
             target="_blank"
             rel="noopener"
             className="underline hover:text-[##d4af37]"
           >
-            Saló de Cent, Barcelona
+            Saló de Cent
           </a>
         </p>
         <CountDown />
-        <p className="text-2xl text-center max-w-xl mb-8">
+        <br />
+        <p className="text-1xl text-center max-w-xl mb-8">
           Nos hace muchísima ilusión compartir con vosotros este día tan especial.
           <br />
           Gracias por acompañarnos en el inicio de esta nueva etapa juntos.
         </p>
-        <div className="flex flex-col md:flex-row gap-4 mt-6">
+        <div className="flex flex-row md:flex-row gap-4 mt-6">
           <a
             href="#rsvp"
             className="inline-block bg-[#6b7d57] text-white font-inter font-semibold rounded-full px-6 py-3 border-none cursor-pointer transition-colors duration-200 shadow-md text-base hover:bg-[#d4af37] hover:text-white"
@@ -41,6 +54,8 @@ export default function Home() {
             Ver detalles
           </a>
         </div>
+        <br />
+        <div id="rsvp">
         <iframe
           width="540"
           height="770"
@@ -52,7 +67,7 @@ export default function Home() {
             marginRight: 'auto',
             maxWidth: '100%',
           }}
-        ></iframe>
+        ></iframe></div>
       </section>
     </WeddingLayout>
   );
