@@ -24,7 +24,7 @@ function WeddingLayout({ children }: { children: React.ReactNode }) {
       {/* Mobile Hamburger */}
       <nav className="w-full py-4 bg-white/80 shadow-sm sticky top-0 z-20 animate-fade-down">
         <div className="flex items-center justify-between md:hidden px-4">
-          <span className="font-greatvibes text-2xl text-[#1f2937]">C & A</span>
+          <span className="font-greatvibes text-4xl text-[#1f2937]">C & A</span>
           <button
             aria-label="Abrir menú"
             className="p-2 rounded-lg border border-[#e6efe2] bg-white shadow"
@@ -136,7 +136,7 @@ function WeddingLayout({ children }: { children: React.ReactNode }) {
           {children}
         </motion.main>
       </AnimatePresence>
-      <footer className="py-8 px-4 text-center text-zinc-500 animate-fade-up">
+      <footer className="py-1 px-4 text-center text-zinc-500 animate-fade-up">
         <Image
           src="/olivos.webp"
           alt="Flores Fotos"
@@ -146,7 +146,7 @@ function WeddingLayout({ children }: { children: React.ReactNode }) {
         />
         <p className="font-greatvibes text-3xl text-[#1f2937] mb-2">Carla & Alejandro</p>
         <p className="text-base mb-2">
-          Gracias por ser parte de nuestro sueño.
+          Gracias por ser parte de nuestra celebración.
         </p>
         <p className="text-xs">
           © 2025 Carla & Alejandro · Todos los derechos reservados ·{' '}
@@ -155,6 +155,7 @@ function WeddingLayout({ children }: { children: React.ReactNode }) {
           </Link>
         </p>
       </footer>
+      <br></br>
     </div>
   );
 }
