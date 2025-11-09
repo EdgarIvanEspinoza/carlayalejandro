@@ -44,12 +44,12 @@ function CopyField({
           {copied ? (
             <>
               <Check className="w-5 h-5" />
-              {label}
+              <span className="hidden md:inline">{label}</span>
             </>
           ) : (
             <>
-              <Copy className="w-5 h-5 pr-1" />
-              {label}
+              <Copy className="w-5 h-5" />
+              <span className="hidden md:inline">{label}</span>
             </>
           )}
         </button>
@@ -86,7 +86,7 @@ export default function Regalos() {
           <br></br>podéis usar este IBAN o Bizum.
         </p>
 
-        <div className="mt-6 max-w-md mx-auto bg-white/90 rounded-2xl shadow-md p-8 border border-[#e6efe2] backdrop-blur-sm">
+        <div className="mt-6 sm:mx-2 md:max-w-md bg-white/90 rounded-2xl shadow-md p-4 md:p-8 border border-[#e6efe2] backdrop-blur-sm">
           <div className="flex flex-col gap-6">
             <CopyField label="IBAN" value="ES0914650120341755455766" />
             <div className="h-px bg-[#e6efe2] w-full"></div>
@@ -95,13 +95,13 @@ export default function Regalos() {
           </div>
         </div>
 
-        <div className="mt-8 flex justify-center">
+        <div className="mt-8">
           <Image
             src="/Familia.png"
             alt="Familia"
-            width={420}
-            height={240}
-            className="mx-auto"
+            width={320}
+            height={140}
+            className="mx-auto w-full max-w-md h-auto"
             priority
           />
         </div>
