@@ -6,7 +6,7 @@ export default function Detalles() {
   return (
     <WeddingLayout>
       <section className="animate-fade-in">
-        <h1 className="text-3xl md:text-6xl font-greatvibes text-[#1f2937] mb-6 text-center">Detalles de la boda</h1>
+        <h1 className="text-5xl md:text-6xl font-greatvibes text-[#1f2937] mb-6 text-center">Detalles de la boda</h1>
               <div className="flex flex-col items-center justify-center py-1 animate-fade-in relative z-10">
                 <h2 className="text-center mb-8">
                   <Image

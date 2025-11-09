@@ -50,7 +50,7 @@ export default function Regalos() {
   return (
     <WeddingLayout>
       <section className="animate-fade-in">
-        <h1 className="text-3xl md:text-6xl font-greatvibes text-[#1f2937] mb-6 text-center">
+        <h1 className="text-5xl md:text-6xl font-greatvibes text-[#1f2937] mb-6 text-center">
           Regalos
         </h1>
 
@@ -66,9 +66,9 @@ export default function Regalos() {
             />
           </h2>
         </div>
-        <p className="text-2xl md:text-1xl text-center max-w-5xl mx-auto">
+        <p className="text-2xl md:text-2xl text-center max-w-1xl mx-auto">
           Vuestra presencia es el mejor regalo.</p> 
-          <p className="text-lg text-center max-w-1xl mx-auto">
+          <p className="text-1xl md:text-1xl text-center max-w-1xl mx-auto">
             Si aun así queréis tener un detalle,
           <br></br>podéis usar este IBAN o Bizum. 
         </p>

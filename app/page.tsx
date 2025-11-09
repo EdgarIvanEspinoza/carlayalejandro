@@ -40,7 +40,7 @@ export default function Home() {
           <br />
           Gracias por acompañarnos en el inicio de esta nueva etapa juntos.
         </p>
-        <div className="flex flex-col md:flex-row gap-4 mt-6">
+        <div className="flex flex-row md:flex-row gap-4 mt-6">
           <a
             href="#rsvp"
             className="inline-block bg-[#6b7d57] text-white font-inter font-semibold rounded-full px-6 py-3 border-none cursor-pointer transition-colors duration-200 shadow-md text-base hover:bg-[#d4af37] hover:text-white"
