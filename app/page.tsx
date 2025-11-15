@@ -1,5 +1,6 @@
 import WeddingLayout from './(wedding)/layout';
 import CountDown from './components/CountDown';
+import BrevoRSVPForm from './components/BrevoRSVPForm';
 import Image from 'next/image';
 
 export default function Home() {
@@ -42,32 +43,15 @@ export default function Home() {
         </p>
         <div className="flex flex-col md:flex-row gap-4 mt-6  w-full justify-center">
           <a
-            href="#rsvp"
-            className="inline-block text-center bg-[#6b7d57] text-white font-inter font-semibold rounded-full px-6 py-3 border-none cursor-pointer transition-colors duration-200 shadow-md text-base hover:bg-[#d4af37] hover:text-white"
-          >
-            Confirmar asistencia
-          </a>
-          <a
             href="/detalles"
             className="inline-block text-center bg-white text-[#6b7d57] font-inter font-semibold rounded-full px-6 py-3 border-2 border-[#6b7280] cursor-pointer transition-colors duration-200 shadow-md text-base hover:bg-[#e6efe2] hover:text-[#6b7d57]"
           >
-            Ver detalles
+            Ver detalles de la boda
           </a>
         </div>
         <br />
-        <div id="rsvp">
-          <iframe
-            width="540"
-            height="770"
-            src="https://a7402fe3.sibforms.com/serve/MUIFAMv4JAdunPcLpCIL4-seT6FlO26y0DWKWbS3Pd_vtt7j7Azde5QZwFHU_4HPSYtpGjOJuGcwJVeLzkcGBaWa1bCUC2sLfx2hv-GoisoozlU7iYrFj5Ku6_3UNt8ZVg2CUUkvDamDP7AxYDz0sUF6vQ_bX4a3nf3hpiCdBJk9G4WqjU7vIdauQ9MR0-6ptu0EZNgaRWhgvQLf2g=="
-            allowFullScreen
-            style={{
-              display: 'block',
-              marginLeft: 'auto',
-              marginRight: 'auto',
-              maxWidth: '100%',
-            }}
-          ></iframe>
+        <div id="rsvp" className="w-full px-4">
+          <BrevoRSVPForm />
         </div>
       </section>
     </WeddingLayout>
