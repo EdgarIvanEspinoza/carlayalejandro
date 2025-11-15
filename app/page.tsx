@@ -22,16 +22,14 @@ export default function Home() {
         </h2>
         <p className="text-xl mb-4 text-center">
           13 de diciembre de 2025 <br />
-          12:30hs Ajuntament de Barcelona
-          <br />
-          <br />
+          12:30hs{' '}
           <a
             href="https://maps.app.goo.gl/EFTAQweu9iTx2j977"
             target="_blank"
             rel="noopener"
             className="underline hover:text-[##d4af37]"
           >
-            Saló de Cent
+            Ajuntament de Barcelona - Saló de Cent
           </a>
         </p>
         <CountDown />
