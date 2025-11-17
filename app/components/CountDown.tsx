@@ -34,19 +34,31 @@ export default function CountDown() {
   }, []);
 
   return (
-    <div className="flex items-center p-4 gap-8 bg-white/80 rounded-xl shadow-sm">
-      <span className="text-3xl font-bold text-[#6b7d57]">
-        {timeLeft.days} <span className="text-sm text-zinc-600">días</span>
-      </span>
-      <span className="text-3xl font-bold text-[#6b7d57]">
-        {timeLeft.hours} <span className="text-sm text-zinc-600">horas</span>
-      </span>
-      <span className="text-3xl font-bold text-[#6b7d57]">
-        {timeLeft.minutes} <span className="text-sm text-zinc-600">min</span>
-      </span>
-      <span className="text-3xl font-bold text-[#6b7d57]">
-        {timeLeft.seconds} <span className="text-sm text-zinc-600">seg</span>
-      </span>
+    <div className="flex items-center justify-center p-4 gap-4 md:gap-8 bg-white/80 rounded-xl shadow-sm">
+      <div className="flex flex-col items-center min-w-[60px]">
+        <span className="text-3xl font-bold text-[#6b7d57] tabular-nums">
+          {String(timeLeft.days).padStart(2, '0')}
+        </span>
+        <span className="text-sm text-zinc-600">días</span>
+      </div>
+      <div className="flex flex-col items-center min-w-[60px]">
+        <span className="text-3xl font-bold text-[#6b7d57] tabular-nums">
+          {String(timeLeft.hours).padStart(2, '0')}
+        </span>
+        <span className="text-sm text-zinc-600">horas</span>
+      </div>
+      <div className="flex flex-col items-center min-w-[60px]">
+        <span className="text-3xl font-bold text-[#6b7d57] tabular-nums">
+          {String(timeLeft.minutes).padStart(2, '0')}
+        </span>
+        <span className="text-sm text-zinc-600">min</span>
+      </div>
+      <div className="flex flex-col items-center min-w-[60px]">
+        <span className="text-3xl font-bold text-[#6b7d57] tabular-nums">
+          {String(timeLeft.seconds).padStart(2, '0')}
+        </span>
+        <span className="text-sm text-zinc-600">seg</span>
+      </div>
     </div>
   );
 }
